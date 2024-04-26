@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>웹디자인기능사 레이아웃 A-2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        #wrap{
+            width: 1200px;
+            height: 700px;
+            margin: 0  auto;
+        }
+        #header{
+            width: 100%;
+            display: flex;
+        }
+        #header .logo{
+            width: 20%;
+            height: 100px;
+            background-color: #e9e9e9;
+        }
+        #header .nav{
+            width: 80%;
+            height: 100px;
+            background-color: #d7d7d7;
+        }
+        #slider{
+            width: 100%;
+            height: 300px;
+            background-color: #cdcdcd;
+        }
+        #main{
+            width: 100%;
+            display: flex;
+        }
+        #main .contents1{
+            width: 33.3333%;
+            height: 200px;
+            background-color: #bbbbbb;
+        }
+        #main .contents2{
+            width: 33.3333%;
+            height: 200px;
+            background-color: #a8a8a8;}
+        #main .contents3{
+            width: 33.3333%;
+            height: 200px;
+            background-color: #a4a4a4;
+        }
+        #footer{
+            width: 100%;
+            display: flex;
+        }
+        #footer .footer1{
+            width: 20%;
+            height: 100px;
+            background-color: #979797;
+        }
+        #footer .footer2{
+            width: 55%;
+            height: 100px;
+            background-color: #757474;
+        }
+        #footer .footer3{
+            width: 25%;
+            height: 100px;
+            background-color: #979797;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <logo class="logo"></logo>
+            <nav class="nav"></nav>
+        </header>
+        <!-- //header -->
+
+        <section id="slider">            
+        </section>
+        <!-- //slider -->
+
+        <main id="main">
+            <section class="contents1"></section>
+            <section class="contents2"></section>
+            <section class="contents3"></section>
+        </main>
+        <!-- //main -->
+
+        <footer id="footer">
+            <div class="footer1"></div>
+            <div class="footer2"></div>
+            <div class="footer3"></div>
+        </footer>
+        <!-- //footer -->
+    </div>
+</body>
+</html>
